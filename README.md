@@ -16,4 +16,12 @@ Using the Mie theory and rayleigh approximation the program calculates:
 -dust extraction efficiency for different star types.
 
 Refractive indices for  Ice, amorphous carbon, silicates are given in ICE_WAR.RI, AC_RM.ri, SilicateDraine03.RI
-,
+
+
+```bash
+python3 laba2.py
+``
+To plot graphics use R script.
+```bash
+Rscript plot.r
+```
