@@ -20,7 +20,7 @@ Refractive indices for  Ice, amorphous carbon, silicates are given in ICE_WAR.RI
 
 ```bash
 python3 laba2.py
-``
+```
 To plot graphics use R script.
 ```bash
 Rscript plot.r
