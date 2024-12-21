@@ -21,7 +21,15 @@ Refractive indices for  Ice, amorphous carbon, silicates are given in ICE_WAR.RI
 ```bash
 python3 laba2.py
 ```
-To plot graphics use R script.
+ 
+
+You may need to install R on your system and Rstudio.
+Required libraries: ggplot2, ggpub, stringi,stringr, scales
+In Rstudio terminal:
+```bash
+install.packages(c("ggplot2", "ggpub", "stringi", "stringr", "scales"))
+```
+Required libraries: [numpy](https://pypi.org/project/numpy/), [miepython](https://pypi.org/project/miepython/).  
 ```bash
 Rscript plot.r
 ```
